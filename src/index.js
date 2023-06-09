@@ -12,8 +12,8 @@
  * @returns valor da sequencia
  */
 function fibonacci(n) {
-  // implemente o codigo aqui
-  //
+  // A sequência inicial
+  // É feito assim para que o index 2 seja de acordo com o requisitado.
   const sequence = [1, 1];
   while (sequence.length < n + 1) {
     sequence.push(sequence.at(-1) + sequence.at(-2));
