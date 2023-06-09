@@ -20,3 +20,5 @@ function fibonacci(n) {
   }
   return sequence.at(-1);
 }
+
+module.exports = fibonacci;
